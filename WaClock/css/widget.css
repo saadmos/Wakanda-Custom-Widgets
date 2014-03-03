@@ -1,0 +1,51 @@
+/*.waf-widget .waf-waclock clock_container {*/
+/*    float:left;*/
+/*    margin-right:2px;*/
+/*    width:110px;*/
+/*    position: relative;*/
+/*}*/
+/*.waf-widget .waf-waclock clock_container .lbl {*/
+/*    font-size:10px;*/
+/*    color: #333333;*/
+/*    line-height: 22px;*/
+/*    background: url(../images/clock_label.png);*/
+/*    text-align: center;*/
+/*    height: 27px;*/
+/*    width: 108px;*/
+/*    margin: 0 auto;*/
+/*}*/
+/*.waf-widget .waf-waclock clockHolder {*/
+/*    width:100px; */
+/*    margin:0 auto;*/
+/*    position:relative;*/
+/*}*/
+/*.waf-widget .waf-waclock clock {*/
+/*    margin-left:5px;*/
+/*}*/
+/* */
+/*.waf-widget .waf-waclock sec {*/
+/*    display:block;*/
+/*    position:absolute;*/
+/*}*/
+/*.waf-widget .waf-waclock min {*/
+/*    display:block;*/
+/*    position:absolute;*/
+/*}*/
+/*.waf-widget .waf-waclock hour {*/
+/*    display:block;*/
+/*    position:absolute;*/
+/*}*/
+/* */
+/*.waf-widget .waf-waclock rotatingWrapper {*/
+/*    position:absolute;*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    left: 5px;*/
+/* */
+/*}*/
+/*.waf-widget .waf-waclock digital {*/
+/*    font-weight:bold;*/
+/*    font-size: 14px;*/
+/*    color: #444444;*/
+/*    text-align:center;*/
+/*}*/

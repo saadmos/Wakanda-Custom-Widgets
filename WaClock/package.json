@@ -1,0 +1,25 @@
+{
+    "name": "WaClock",
+    "studioName": "WaClock",
+    "category": "Custom Widgets",
+    "iconPath": "/icons/widget.png",
+    "author": "Saad Mousliki",
+    "version": "1.0.0",
+    "copyright": "(c) 2014 Widget Developer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/saadmos/Wakanda-Custom-Widgets"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 8"},
+    "license": "MIT",
+    "loadDependencies": [   
+        {"id": "Widget_V2"},
+        {"id": "WaClock/js/jquery.rotate.js",  "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaClock/js/jClocksGMT.js",  "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaClock/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaClock/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaClock/css/jClocksGMT.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WaClock/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
