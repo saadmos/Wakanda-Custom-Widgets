@@ -105,8 +105,10 @@ WAF.define('WaGage', ['waf-core/widget'], function(widget) {
                 $node.on('click', function(event) {
                     var myMin = this.min();
                     var myMax = this.max();
-                    var x = event.offsetX;
-                    var y = event.offsetY;
+                    
+                    var x = event.offsetX === undefined ? event.originalEvent.layerX : event.offsetX;
+                    var y = event.offsetY === undefined ? event.originalEvent.layerY : event.offsetY;
+                    
                     if (y >= 95 && y <= 255) {
                         var r1 = 100;
                         var r2 = 160;
