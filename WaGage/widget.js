@@ -94,8 +94,8 @@ WAF.define('WaGage', ['waf-core/widget'], function(widget) {
                 else {
                     var min = waGage.txtMin[0];
                     min.style.visibility = "visible";
+                    
                     var max = waGage.txtMax[0];
-                    max.style.visibility = "visible";
                     max.style.visibility = "visible";
                 }
             });
