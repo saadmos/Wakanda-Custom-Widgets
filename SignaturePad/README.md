@@ -1,6 +1,6 @@
 ## Custom Widget for Wakanda 8 BUILD : 8.158756 (http://wakanda.org)
 
-The SignaturePad allows you drawing smooth signatures. It's HTML5 canvas based and uses variable width B�zier curve interpolation
+The SignaturePad allows you drawing smooth signatures. It's HTML5 canvas based and uses variable width Bezier curve interpolation
 This widget is an integration of JQUERY PLUGIN from : https://github.com/szimek/signature_pad
 
 
