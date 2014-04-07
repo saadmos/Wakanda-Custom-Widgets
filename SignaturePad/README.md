@@ -32,6 +32,13 @@ This widget has the following properties:
 * __onEnd__
 (function) Callback when stroke end.
 
+####Methods :
+
+* __clear__ 
+* (function) clear the widget
+* __isEmpty__ 
+* (function) return true if there is not signature in the widget
+
 
 
 
