@@ -3,18 +3,17 @@
     "studioName": "SignaturePad",
     "category": "Custom Widgets",
     "iconPath": "/icons/widget.png",
-    "author": "Widget Developer",
+    "author": "Saad Mousliki",
     "contributors": [
-        "Developer 1",
-        "Developer 2"
+        "Stephane Clairet"
     ],
-    "version": "1.0.0",
-    "copyright": "(c) 2014 Widget Developer",
+    "version": "1.0.1",
+    "copyright": "(c) 2014  Saad Mousliki",
     "repository": {
         "type": "git",
-        "url": "https://github.com/developer/Widget.git"
+        "url": "https://github.com/saadmos/Wakanda-Custom-Widgets/"
     },
-    "keywords": ["wakanda", "widget"],
+    "keywords": ["wakanda", "widget","Signature","Jquery Plugin"],
     "engines": {"wakanda": ">= 8"},
     "license": "MIT",
     "loadDependencies": [
