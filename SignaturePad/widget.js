@@ -13,7 +13,7 @@ WAF.define('SignaturePad', ['waf-core/widget'], function(widget) {
 
             if (!window.Designer) {
                 var that = this;
-                var waSignaturePad = new SignaturePad($node.find('canvas')[0], {
+                this.signaturePad = new SignaturePad($node.find('canvas')[0], {
 
                     minWidth: this.minWidth(),
                     maxWidth: this.maxWidth(),
@@ -29,6 +29,7 @@ WAF.define('SignaturePad', ['waf-core/widget'], function(widget) {
                     }
                 });
             }
+            
         },
 
         dotSize: widget.property({
@@ -61,7 +62,6 @@ WAF.define('SignaturePad', ['waf-core/widget'], function(widget) {
             defaultValue: 0.7,
             bindable: false
         }),
-
         clear: function() {
             this.signaturePad.clear();
         },
