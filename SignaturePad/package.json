@@ -4,9 +4,6 @@
     "category": "Custom Widgets",
     "iconPath": "/icons/widget.png",
     "author": "Saad Mousliki",
-    "contributors": [
-        "Stephane Clairet"
-    ],
     "version": "1.0.1",
     "copyright": "(c) 2014  Saad Mousliki",
     "repository": {
@@ -20,8 +17,6 @@
         {"id": "Widget_V2"},
         {"id": "SignaturePad/lib/js/signature_pad.min.js", "path": "WIDGETS_CUSTOM"},
         {"id": "SignaturePad/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "SignaturePad/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "SignaturePad/css/signature_pad.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
         {"id": "SignaturePad/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
     ]
 }

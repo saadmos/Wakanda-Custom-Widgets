@@ -1,9 +1,5 @@
 (function(SignaturePad) {
 
-//    /* Default width and height of your widget */
-    SignaturePad.setWidth('658');
-    SignaturePad.setHeight('318');
-
 //    /* Define custom event for your widget */
     SignaturePad.addEvent('begin');
     SignaturePad.addEvent('end');
