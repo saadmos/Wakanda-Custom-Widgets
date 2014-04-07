@@ -67,6 +67,9 @@ WAF.define('SignaturePad', ['waf-core/widget'], function(widget) {
         },
         isEmpty: function() {
             return this.signaturePad.isEmpty();
+        },
+        toDataURL : function(){
+            this.signaturePad.toDataURL();
         }
     });
     return mySignaturePad;
